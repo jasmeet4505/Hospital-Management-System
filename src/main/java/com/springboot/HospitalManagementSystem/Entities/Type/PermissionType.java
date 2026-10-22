@@ -1,0 +1,18 @@
+package com.springboot.HospitalManagementSystem.Entities.Type;
+
+public enum PermissionType {
+    PATIENT_READ,
+    PATIENT_WRITE,
+    PATIENT_DELETE,
+    DOCTOR_READ,
+    DOCTOR_WRITE,
+    DOCTOR_DELETE,
+    APPOINTMENT_READ,
+    APPOINTMENT_WRITE,
+    APPOINTMENT_CANCEL,
+    MEDICAL_RECORD_READ,
+    MEDICAL_RECORD_WRITE,
+    DEPARTMENT_MANAGE,
+    BILLING_MANAGE,
+    SYSTEM_ADMIN
+}
